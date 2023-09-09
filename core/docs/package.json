@@ -1,0 +1,23 @@
+{
+  "name": "@insight-formatter/docs",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress preview",
+    "lint": "eslint .",
+    "preview": "vitepress build"
+  },
+  "devDependencies": {
+    "@next/eslint-plugin-next": "^13.4.19",
+    "@types/react": "^18.2.21",
+    "@types/react-dom": "^18.2.7",
+    "next": "^13.4.19",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typedoc": "^0.25.1",
+    "typedoc-plugin-frontmatter": "^0.0.2",
+    "typedoc-plugin-markdown": "^4.0.0-next.11",
+    "typedoc-plugin-rename-defaults": "^0.6.6",
+    "vitepress": "^1.0.0-rc.10"
+  }
+}

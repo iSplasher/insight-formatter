@@ -1,0 +1,36 @@
+{
+  "name": "insight-formatter",
+  "version": "0.0.0",
+  "description": "Make [insert language] diagnostic info prettier and human-readable.",
+  "main": "index.ts",
+  "author": "iSplasher",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "core/*",
+    "core/components/*",
+    "plugins/*",
+    "languages/*",
+    "config/*"
+  ],
+  "scripts": {
+    "run:cpp": "cd /cpp && bun",
+    "add:cpp": "cd /cpp && bun add",
+    "remove:cpp": "cd /cpp && bun remove",
+    "run:formatter": "cd core/formatter && bun",
+    "add:formatter": "cd core/formatter && bun add",
+    "remove:formatter": "cd core/formatter && bun remove",
+    "run:docs": "cd core/docs && bun",
+    "add:docs": "cd core/docs && bun add",
+    "remove:docs": "cd core/docs && bun remove",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "gen": "plop"
+  },
+  "devDependencies": {
+    "@crutchcorn/plop": "^4.1.0-alpha.1",
+    "@types/node": "^18.12.1",
+    "eslint": "^8.48.0",
+    "prettier": "^3.0.3",
+    "typescript": "^5.2.2"
+  }
+}

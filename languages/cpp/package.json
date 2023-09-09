@@ -1,0 +1,14 @@
+{
+  "name": "@insight-formatter/cpp",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "",
+    "build": "",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "folders": [
+    {
+      "name": "✨ insight-formatter",
+      "path": ".."
+    },
+    {
+      "name": "⚙️ @insight-formatter/eslint-config-custom",
+      "path": "../config/eslint-config-custom"
+    },
+    {
+      "name": "⚙️ @insight-formatter/tsconfig",
+      "path": "../config/tsconfig"
+    },
+    {
+      "name": "⚙️ @insight-formatter/typedoc",
+      "path": "../config/typedoc"
+    },
+    {
+      "name": "📦 @insight-formatter/components",
+      "path": "../core/components"
+    },
+    {
+      "name": "📦 @insight-formatter/docs",
+      "path": "../core/docs"
+    },
+    {
+      "name": "🚀 @insight-formatter/formatter",
+      "path": "../core/formatter"
+    },
+    {
+      "name": "📦 @insight-formatter/cpp",
+      "path": "../languages/cpp"
+    }
+  ],
+  "settings": {
+    "monorepoWorkspace.folders.regex.apps": "^app|web|api|frontend|backend|core/formatter",
+    "monorepoWorkspace.folders.regex.libs": "^common|package|lib|private|plugins|languages|core",
+    "monorepoWorkspace.folders.regex.tools": "^tool|script|util|config"
+  }
+}
